@@ -1,0 +1,46 @@
+h1 {
+  font-family: courier;
+  text-align: center;
+}
+
+#frame {
+  width: 600px;
+  margin: 0px auto;
+  outline: black solid 10px;
+}
+
+.tower {
+  width: 200px;
+  height: 390px;
+  outline: blue solid 1px;
+  float: left;
+}
+
+#frame:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#block1{
+  width: 140px;
+  height: 130px;
+  background-color: greenyellow;
+}
+
+#block2{
+  width: 160px;
+  height: 130px;
+  background-color: purple;
+}
+
+#block3{
+  width: 180px;
+  height: 130px;
+  background-color: crimson;
+}
+
+.block {
+  float: left;
+  margin: 0 auto;
+}
